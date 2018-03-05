@@ -4,7 +4,7 @@ import { ProductService } from './product.service';
 @Component({
   selector: 'app-root',
   template: `
-    <rating [rating]="4"></rating>
+    <products></products>
   `,
   providers: [ProductService]
 })
